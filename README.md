@@ -8,8 +8,11 @@
 -  Open shell or termux and run this commands
 
   ```
-  bash <(curl -L https://gist.github.com/SamPandey001/e855b6593d076a1ede60c103bea336c4/raw)
+  bash <(curl -L https://github.com/SamPandey001/Secktor-Deploy/raw/main/install.sh)
   ```
+- If you see pop up (curl is not installed) run
+
+        apt-get install curl
 
 -  Put your github username when it asks
 -  Volla!! bot is alive.

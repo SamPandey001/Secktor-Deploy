@@ -1,8 +1,7 @@
-#|------------------------------------------|
-#|      Copyright (C) 2022 SamPandey001     |
-#|      Secktor UB 2022                     |
-#|------------------------------------------|
-
+#|---------------------------------|
+#| Copyright (C) 2022 SamPandey001 |
+#| Secktor UB 2022                 |
+#|---------------------------------|
 
 pause() {
     read -n1 -r -p "Press any key to start process..." key
@@ -93,5 +92,21 @@ clear
 echo "Installed packages.."
 echo "Starting Bot Server..."
 clear
-node lib/client.js
+figlet Secktor
+read -p "Enter Your Owner Number: " owner
+echo "OWNER_NUMBER=${owner}" >> config.env
+#--------------------------------------------
+read -p "Enter Your Mongodb uri: " mongo
+echo "MONGODB_URI=${mongo}" >> config.env
+#--------------------------------------------
+read -p "Enter Your SESSION_ID: " session
+echo "SESSION_ID=${session}" >> config.env
 clear
+figlet Vars
+cat config.env
+read -n1 -r -p "Press any key to continue..." key
+clear
+figlet SpeedY
+echo "TheSpeedY"
+echo "To stop bot: ctrl+c"
+node lib/client.js

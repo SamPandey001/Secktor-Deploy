@@ -1,7 +1,13 @@
-#|---------------------------------|
-#| Copyright (C) 2022 SamPandey001 |
-#| Secktor UB 2022                 |
-#|---------------------------------|
+#|------------------------------------------------------------|
+#|                                                            |
+#|   Copyright (C) 2022 SamPandey001                          |
+#|   Secktor UB 2022                                          |
+#|   First Whatsapp Userbot with shell script program,        |
+#|   to install in any environment                            |
+#|   @author : SamPandey001                                   |
+#|   @description: Secktor,A Multi-functional whatsapp bot.   |
+#|                                                            |
+#|------------------------------------------------------------|
 
 pause() {
     read -n1 -r -p "Press any key to start process..." key

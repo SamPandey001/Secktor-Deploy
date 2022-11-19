@@ -71,7 +71,7 @@ install_packages(){
 clear
 pause
 clear
-$SUDO sudo apt -y remove nodejs
+$SUDO  apt -y remove nodejs
 curl -fsSl https://deb.nodesource.com/setup_lts.x | $SUDO bash - && $SUDO apt -y install nodejs
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | $SUDO apt-key add - 
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | $SUDO tee /etc/apt/sources.list.d/yarn.list

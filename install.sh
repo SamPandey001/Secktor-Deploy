@@ -94,6 +94,7 @@ echo -e "\e[4;34mMake sure you have filled vars in \e[1;32mconfig.env\e[0m"
 pauseagain
 clear
 yarn install --network-concurrency 1
+npm i pm2 --location=global
 clear
 echo "Installed packages.."
 echo "Starting Bot Server..."

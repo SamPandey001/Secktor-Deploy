@@ -1,6 +1,7 @@
 # Secktor-Deploy
 
 ## Deploy in any shell including Termux
+-  [Termux Installation Video tutorial](https://youtu.be/ZgYFPWJdgms)
 -  All you need is patient and Internet and shell or phone with termux.
 -  If you don't have termux install from [Termux here with no issues.](https://f-droid.org/repo/com.termux_118.apk)
 -  First fork Repo and edit sample-config.env to config.env

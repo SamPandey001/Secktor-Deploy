@@ -46,7 +46,7 @@
         
     4. To change session and restart
            
-           cd Secktor-Md/lib/auth_info_baileys && rm -r *
+           cd Secktor-Md/lib/auth_info_baileys && rm -rf *
            cd .. && node .
         
 

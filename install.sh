@@ -115,4 +115,4 @@ clear
 figlet SpeedY
 echo "TheSpeedY"
 echo "To stop bot: ctrl+c"
-node lib/client.js
+npm start

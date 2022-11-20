@@ -115,5 +115,5 @@ read -n1 -r -p "Press any key to continue..." key
 clear
 figlet SpeedY
 echo "TheSpeedY"
-echo "To stop bot: ctrl+c"
+echo "To stop bot: ctrl+c then npm stop secktor"
 npm start
